@@ -16,10 +16,12 @@ export default withNuxt(antfu({
   ignores: ["./src/github/schema.docs.graphql", ".pnpm-store/**"],
 }, {
   rules: {
+    "ts/no-redeclare": "off",
     "ts/consistent-type-definitions": ["error", "type"],
     "no-console": ["off"],
     "antfu/no-top-level-await": ["off"],
     "node/prefer-global/process": ["off"],
+    "node/no-process-env": ["off"],
     "perfectionist/sort-imports": ["error", {
       tsconfigRootDir: ".",
     }],
