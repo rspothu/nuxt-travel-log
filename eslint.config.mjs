@@ -13,7 +13,7 @@ export default withNuxt(antfu({
     semi: true,
     quotes: "double",
   },
-  ignores: ["./src/github/schema.docs.graphql", ".pnpm-store/**", "**/migrations/**"],
+  ignores: ["./src/github/schema.docs.graphql", ".pnpm-store/**", "**/migrations/*"],
 }, {
   rules: {
     "ts/no-redeclare": "off",
