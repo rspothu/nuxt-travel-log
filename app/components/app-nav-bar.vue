@@ -13,7 +13,6 @@ import AppThemeToggle from "./app-theme-toggle.vue";
     </div>
     <div class="navbar-end">
       <AppThemeToggle />
-
       <button class="btn btn-accent">
         Sign In with GitHub
         <Icon name="tabler:brand-github" class="24" />

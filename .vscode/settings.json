@@ -86,5 +86,8 @@
     "scss",
     "pcss",
     "postcss"
-  ]
+  ],
+  "editor.tokenColorCustomizations": {
+    "comments": "#aa09b8"
+  }
 }
