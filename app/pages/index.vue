@@ -1,3 +1,7 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
   <div class="hero bg-base-300 container mx-auto mt-4">
     <div class="hero-content text-center min-h-96">
