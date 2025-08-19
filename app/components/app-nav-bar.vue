@@ -2,6 +2,7 @@
 import { NuxtLink } from "#components";
 
 import AppThemeToggle from "./app-theme-toggle.vue";
+import AuthButton from "./auth-button.vue";
 </script>
 
 <template>
@@ -13,10 +14,7 @@ import AppThemeToggle from "./app-theme-toggle.vue";
     </div>
     <div class="navbar-end">
       <AppThemeToggle />
-      <button class="btn btn-accent">
-        Sign In with GitHub
-        <Icon name="tabler:brand-github" class="24" />
-      </button>
+      <AuthButton />
     </div>
   </div>
 </template>
