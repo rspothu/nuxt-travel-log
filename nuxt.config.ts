@@ -8,7 +8,12 @@ import { defineNuxtConfig } from "nuxt/config";
 export default defineNuxtConfig({
   compatibilityDate: "2025-08-16",
   devtools: { enabled: true },
-  modules: ["@nuxt/eslint", "@nuxt/icon", "@nuxtjs/color-mode"],
+  modules: [
+    "@nuxt/eslint",
+    "@nuxt/icon",
+    "@nuxtjs/color-mode",
+    "@pinia/nuxt",
+  ],
   css: ["~/assets/css/main.css"],
   eslint: {
     config: {

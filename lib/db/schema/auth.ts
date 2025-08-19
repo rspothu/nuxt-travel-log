@@ -48,7 +48,7 @@ export const account = sqliteTable("account", {
 });
 
 export const verification = sqliteTable("verification", {
-  id: text("id").primaryKey(),
+  id: integer("id").primaryKey({ autoIncrement: true }),
   identifier: text("identifier").notNull(),
   value: text("value").notNull(),
   expiresAt: integer("expires_at").notNull(),
